@@ -1,8 +1,8 @@
 {
-  "homepage": "http://MichaelKJ99.github.io/TODO-List",
+  "homepage": "http://MichaelKJ99.github.io/Drag-drop-TODO-List",
   "name": "todo-list",
-  "private": true,
-  "version": "1.0.0",
+  "private": false,
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
