@@ -1,0 +1,49 @@
+.container {
+  width: 95%;
+  display: flex;
+  margin-top: 0.625rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2%;
+}
+
+.todos__heading {
+  font-size: 1.875rem;
+  color: white;
+}
+
+.todos {
+  border-radius: 0.3125rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  max-height: 75vh;
+  width: 47.5%;
+  padding: 0.9375rem;
+  background-color: rgb(50, 195, 205);
+}
+
+.remove {
+  background-color: rgb(235, 103, 80);
+}
+
+.drag--active {
+  background-color: rgb(0, 221, 236);
+}
+
+.drag--remove {
+  background-color: rgb(240, 70, 41);
+}
+
+@media (max-width: 1100px) {
+  .todos {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .todos {
+    width: 95%;
+    margin-bottom: 0.625rem;
+  }
+}
