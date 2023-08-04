@@ -1,7 +1,7 @@
 # Drag&drop TODO List App
 The app created in HTML5, CSS3, JavaScript, TypeScript and React.js with BEM Methodology. The app project was setup using Vite. 
 The assumption of this app is perform simple todo list with basic functionalities. Final version is deployed using gh-pages.
-App Preview: http://MichaelKJ99.github.io/TODO-List
+App Preview: https://michaelkj99.github.io/Drag-drop-TODO-List/
 
 ## Content:
 - [Functionalities](#Functionalities)
