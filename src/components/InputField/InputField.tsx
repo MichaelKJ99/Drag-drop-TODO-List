@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import "./InputField.css";
 
 interface Props {
@@ -8,10 +8,6 @@ interface Props {
 const InputField: React.FC<Props> = ({ handleAdd }) => {
   const [inputValue, setInputValue] = useState<string>("");
   const inputRef = useRef<HTMLInputElement>(null);
-
-  useEffect(() => { 
-    inputRef.current?.focus();
-  }, []);
 
   return (
     <form
