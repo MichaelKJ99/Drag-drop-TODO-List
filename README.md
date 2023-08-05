@@ -4,8 +4,10 @@ The assumption of this app is creation of simple todo list with basic functional
 App Preview: https://michaelkj99.github.io/Drag-drop-TODO-List/
 
 ## Content:
-- [Functionalities](#Functionalities)
-- [Techstack](#Techstack)
+- [Functionalities](##Functionalities)
+- [Techstack](##Techstack)
+- [Screenshots](##Screenshots)
+- [Author](##Author)
 
 ## Functionalities:
 - add, edit, remove task;
